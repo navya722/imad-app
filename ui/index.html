@@ -1,21 +1,48 @@
-<!doctype html>
-<html>
-    <head>
-        <link href="/ui/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div class="center">
-            <img id= "madi" src="/ui/madi.png" class="img-medium"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Navya's profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <div class="container text-center full-height">
+    <div class="row content">
+      <div class="col-sm-4 sidenav">
+        <div class="thumbnail">
+          <!-- Change the link in the src attribute below to an image available on the Internet -->
+          <img src="https://scontent.fbom5-1.fna.fbcdn.net/v/t1.0-1/p160x160/19105520_1087959498005695_5071761981080081280_n.jpg?oh=08f7fa6a2a31d4b87b6df7aec673b884&oe=59F0B7DD" alt="Lights" style="width:50%" />
         </div>
-        <br>
-        <div id="main-text"  class="center text-big bold">
-            Hi! I am excited!.
-	    <h1>Made some local changes</h1>
-        </div>
-        <script>
-            alert("hi I am Javascript!");
-        </script>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-    </body>
+        <h2 align="center"><b>Navya</b></h2>
+        <p align="center">Student,<br>New Horizon Institute of Technology and Management,<br>Thane.</p>
+      </div>
+
+      <div class="col-sm-8 text-left">
+        <h3>About me</h3>
+        <p>Trying to Learn as much as I can.</p>
+        <hr>
+        <h3>Education</h3>
+        <p>Currently in my Final year of Computer Engineering</p>
+        <hr>
+        <h3>Experience</h3>
+        <p>Yet to have I guess ;)</p>
+        <hr>
+        <h3>A cool thing I've done recently</h3>
+        <p>Joining this course?! XD<p>
+        <hr>
+         <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-text="I just built #myfirstapp with #imad! @HasuraEd. Check it out here - " data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+         <iframe id="fb_share" src="" width="84" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+         <script>
+            var current_url = window.location.href;
+            document.getElementById("fb_share").src="https://www.facebook.com/plugins/share_button.php?href="+current_url+"&layout=button_count&size=large&mobile_iframe=true&appId&width=84&height=28";
+         </script>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container-fluid text-center footer">
+    Imagination is the true magic carpet.
+  </footer>
+</body>
 </html>
